@@ -1,5 +1,3 @@
-# SIMS Portal Release Notes
-
 ## 1.0 - Shady Grove
 
 ### Features
