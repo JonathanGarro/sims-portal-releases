@@ -1,6 +1,17 @@
-**Release notes for the Red Cross Red Crescent Surge Information Management Portal**
+**Release notes for the Red Cross Red Crescent [Surge Information Management Portal](rcrcsims.org)**
 
-# 1.0 - Shady Grove
+# 1.0.1 (Shady Grove)
+
+## Features
+
+- **Release Tracker**: A new page for tracking release features.
+
+## Changes
+
+- **Release Tracker Link**: The new release tracker has been added to the `layout.html` file.
+- **Footer Redesign**: A new layout was added to include additional links and remove generic SIMS blurb.
+
+# 1.0 (Shady Grove)
 
 ## Features
 
