@@ -1,17 +1,19 @@
 **Release notes for the Red Cross Red Crescent [Surge Information Management Portal](rcrcsims.org)**
 
-# 1.0.1 (Shady Grove)
+# 1.0.1 (Shady Grove) - 2023-05-23
 
 ## Features
 
-- **Release Tracker**: A new page for tracking release features.
+### Release Tracker
+
+- **Release Tracker on GitHub**: A new page for tracking release features. We'll be following the Red Line stations from the Washington, DC Metro system for major new releases.
 
 ## Changes
 
 - **Release Tracker Link**: The new release tracker has been added to the `layout.html` file.
 - **Footer Redesign**: A new layout was added to include additional links and remove generic SIMS blurb.
 
-# 1.0 (Shady Grove)
+# 1.0 (Shady Grove) - 2023-05-20
 
 ## Features
 
