@@ -1,5 +1,12 @@
 **Release notes for the Red Cross Red Crescent [Surge Information Management Portal](rcrcsims.org)**
 
+# 1.0.2 (Shady Grove) - 2023-05-25
+
+## Changes
+
+- **All Emergencies Search Removed**: Remove broken link to old custom search page.
+- **Manual Refresh of User Locations**: Temporary stopgap solution to allow administrators to regenerate the CSV that feeds the landing page's red dots that represent the locations of SIMS members around the world.
+
 # 1.0.1 (Shady Grove) - 2023-05-23
 
 ## Features
