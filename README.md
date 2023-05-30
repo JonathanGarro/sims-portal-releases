@@ -1,6 +1,6 @@
 **Release notes for the Red Cross Red Crescent [Surge Information Management Portal](rcrcsims.org)**
 
-![DC Metro Map](https://github.com/JonathanGarro/sims-portal-releases/assets/8890661/82d8f76f-d69c-45ad-bc05-99df34c0052f)
+![DC Metro Map Isolated](https://github.com/JonathanGarro/sims-portal-releases/assets/8890661/88a441fe-47b6-4874-90e6-83d3a64f0341)
 
 # 1.0.2 (Shady Grove) - 2023-05-25
 
