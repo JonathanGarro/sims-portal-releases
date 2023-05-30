@@ -1,6 +1,16 @@
-**Release notes for the Red Cross Red Crescent [Surge Information Management Portal](rcrcsims.org)**
+**Release notes for the Red Cross Red Crescent [Surge Information Management Portal](rcrcsims.org)**. 
 
 ![DC Metro Map Isolated](https://github.com/JonathanGarro/sims-portal-releases/assets/8890661/88a441fe-47b6-4874-90e6-83d3a64f0341)
+
+- Patch (0.0.X) releases are minor bug fixes and code enhancements. 
+- Minor (0.X.0) and major (X.0.0) releases introduce new features and follow the Washington DC Metro system's station names on the Red Line, starting at Shady Grove.
+
+# 1.0.3 (Shady Grove) - 2023-05-29
+
+## Fixes
+
+- **New Assignment Form**: Removed "FACT/CAP" from assignment type.
+- **Limited Edition Image Path**: Fix for limited edition paths stored in S3.
 
 # 1.0.2 (Shady Grove) - 2023-05-25
 
@@ -13,7 +23,7 @@
 
 ## Features
 
-### Release Tracker
+### Other
 
 - **Release Tracker on GitHub**: A new page for tracking release features. We'll be following the Red Line stations from the Washington, DC Metro system for major new releases.
 
@@ -80,11 +90,3 @@
 
 - **GO Surge Alerts**: The Portal runs a cron job that downloads the latest surge alerts from the GO API and summarizes them on the dashboard for logged-in members. New alerts trigger a Slack message that gets posted to the Availability channel on the SIMS account, along with basic information about the deployment request.
 - **Data Overview**: A few basic visualizations are embedded in the dashboard, to support simple reporting on key metrics.
-
-## Changes
-
-- N/A
-
-## Fixes
-
-- N/A
