@@ -3,6 +3,19 @@
 - Patch (0.0.X) releases are minor bug fixes and code enhancements. 
 - Minor (0.X.0) and major (X.0.0) releases introduce new features and follow the Washington DC Metro system's station names on the Red Line, starting at Shady Grove.
 
+# 1.1.0 (Rockville) - 2023-06-03
+
+## Features
+
+### Portfolios
+
+- **KM Link**: Added linkage for portfolio view back to the relevant tutorial or guide in learn-sims.org. When `km_article_id` is not null, a button will appear that links to the guide. Updating this field must be done in the admin area by editing the product's information in the "Portfolio" tab.
+
+## Fixes
+
+- **Member Count**: Emergency pages now count each person only once, whereas it used to count each assignment (meaning if someone served as a remote coordinator then as a remote supporter, they were getting double counted).
+- **Root URL**: With migration from CloudFront staging domain to rcrcsims.org, update the `ROOT_URL` in the `config.py` file to support external links.
+
 # 1.0.3 (Shady Grove) - 2023-05-29
 
 ## Fixes
