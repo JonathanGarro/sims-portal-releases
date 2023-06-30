@@ -3,9 +3,34 @@
 - Patch (0.0.X) releases are minor bug fixes and code enhancements. 
 - Minor (0.X.0) and major (X.0.0) releases introduce new features and follow the Washington DC Metro system's station names on the Red Line, starting at Shady Grove.
 
+# 1.2.0 (Twinbrook) - 2023-06-30
+
+## New Features
+
+### Availability
+
+- **Weekly Availability**: Users can now report their availability for providing remote support to operations. When users open the emergency's page, there is an option to provide their availability for the current week. As the next week approaches (starting Thursdays), they can also report for the upcoming week. A calendar provides a visual summary of the days they have selected. 
+- **Cron Job Trigger**: A function has been added that runs on Monday morning which loops over active emergencies and sends a Slack message to the relevant disaster channel with a direct link to the reporting form. This is currently toggled off, pending socialization with the SIMS network.
+
+## Changes
+
+- **Slack API Caching**: Added caching to the Slack API calls that get the list of users and IDs. There is a rate limit of one call per minute, which caused an error if multiple people were registering at once. The cache now stores the results for two minutes to avoid the limit.
+- **Hide Map on Landing Page**: Users reported that some mobile phones would freeze when viewing the index page as a result of the D3.js animation. This element is now hidden when viewing the site on smaller screens.
+- **Emergency Page Navigation**: The layout and available actions on emergency pages have been redesigned. Only administrators can assign the first SIMS Remote Coordinator (subsequent rounds can be assigned by either administrators or existing/previous SIMS Remote Coordinators). Regular users cannot assign themselves to emergencies any more—Coordinators must do this.
+
+# 1.1.1 (Rockville) - 2023-06-15
+
+## Changes
+
+- **Navbar Font Sizing**: The title and nav menu links have been shrunk to ensure text doesn't get cutoff on mobile devices.
+
+## Fixes
+
+- **Forgot Password Error**: A bug that would give the user an error message when using the "Forgot Password" feature, which was related to a logging issue, has been fixed.
+
 # 1.1.0 (Rockville) - 2023-06-03
 
-## Features
+## New Features
 
 ### Portfolios
 
@@ -32,7 +57,7 @@
 
 # 1.0.1 (Shady Grove) - 2023-05-23
 
-## Features
+## New Features
 
 ### Other
 
@@ -45,7 +70,7 @@
 
 # 1.0 (Shady Grove) - 2023-05-20
 
-## Features
+## New Features
 
 ### User Profiles
 
