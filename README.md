@@ -3,6 +3,17 @@
 - Patch (0.0.X) releases are minor bug fixes and code enhancements. 
 - Minor (0.X.0) and major (X.0.0) releases introduce new features and follow the Washington DC Metro system's station names on the Red Line, starting at Shady Grove.
 
+# 1.2.1 (Twinbrook) - 2023-07-01
+
+## Changes
+
+- **Verify Slack ID on Approval**: In order to validate that users are not spoofing the registration process, a link to their Slack DM has been added to the new user approval route for Admins that asks them to check the Slack ID with a quick link.
+
+## Fixes
+
+- **D3.js Map**: Fix the timing on the map markers so they stay on until the horizon and reappear correctly.
+- **Broken Slack DM Link**: The URL pattern for direct linking to a user's Slack DM was previously not properly configured.
+
 # 1.2.0 (Twinbrook) - 2023-06-30
 
 ## New Features
