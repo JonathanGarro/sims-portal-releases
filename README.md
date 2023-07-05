@@ -3,6 +3,23 @@
 - Patch (0.0.X) releases are minor bug fixes and code enhancements. 
 - Minor (0.X.0) and major (X.0.0) releases introduce new features and follow the Washington DC Metro system's station names on the Red Line, starting at Shady Grove.
 
+# 1.2.2 (Twinbrook) - 2023-07-05
+
+## New Features
+
+### Availability
+
+- **Better Data Management and Visualization**: Building off the availability reporting feature introduced in 1.2.0, users can now more easily make changes to their previous reports. Past reports are overwritten rather than appended. The availability tab on the emergency page now summarizes the data for the week in a bar chart.
+
+## Changes
+
+- **Separated Support Tables**: The emergency page now splits up supporters into three distinct tables: Remote Coordinators, Remote Supporters, and deployed IM delegates, the latter being a collapsed table that can be expanded.
+- **PEP-8 Compliant Imports**: As part of a larger effort to clean up the codebase, the imports on various routes have been reorganized to make them easier to read.
+
+## Fixes
+
+- **DataTable Error in Admin View**: Fixed an error thrown by a conflicting javascript function when viewing the assigned profiles table.
+
 # 1.2.1 (Twinbrook) - 2023-07-01
 
 ## Changes
