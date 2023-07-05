@@ -7,7 +7,7 @@
 
 ## New Features
 
-### Availability
+## Availability
 
 - **Better Data Management and Visualization**: Building off the availability reporting feature introduced in 1.2.0, users can now more easily make changes to their previous reports. Past reports are overwritten rather than appended. The availability tab on the emergency page now summarizes the data for the week in a bar chart.
 
