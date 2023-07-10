@@ -3,11 +3,31 @@
 - Patch (0.0.X) releases are minor bug fixes and code enhancements. 
 - Minor (0.X.0) and major (X.0.0) releases introduce new features and follow the Washington DC Metro system's station names on the Red Line, starting at Shady Grove.
 
+# 1.2.3 (Twinbrook) - 2023-07-10
+
+## New Features
+
+### User Profiles
+
+- **Delete Skills**: Users can now delete skills they've assigned themselves from their profile edit page. 
+
+### Emergencies
+
+- **Assignment Quick Access**: When viewing an emergency for which the user has an active remote support assignment, an alert box in the left pane appears, offering quick access to the assignment record.
+
+### Changes
+
+- **Paginated Member Cards**: To reduce load times on members page on public view, the cards are now be limited to four rows with 'next' and 'previous' buttons conditionally appearing at the bottom.
+
+## Fixes
+
+- **Logging Issues Related to Alembic**: After implementing `flask-migrate` to handle database model changes, it broke logging to our Logtail instance. This was related to an [identified issue](https://github.com/miguelgrinberg/Flask-Migrate/issues/227) in `flask_migrate.upgrade()` during initialization.
+
 # 1.2.2 (Twinbrook) - 2023-07-05
 
 ## New Features
 
-## Availability
+### Availability
 
 - **Better Data Management and Visualization**: Building off the availability reporting feature introduced in 1.2.0, users can now more easily make changes to their previous reports. Past reports are overwritten rather than appended. The availability tab on the emergency page now summarizes the data for the week in a bar chart.
 
