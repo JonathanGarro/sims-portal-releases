@@ -3,6 +3,13 @@
 - Patch (0.0.X) releases are minor bug fixes and code enhancements. 
 - Minor (0.X.0) and major (X.0.0) releases introduce new features and follow the Washington DC Metro system's station names on the Red Line, starting at Shady Grove.
 
+# 1.2.4 (Twinbrook) - 2023-07-12
+
+## Changes
+
+- **Assignment Quick Access**: The quick access button released with **1.2.3** has been updated with improved visual styling.
+- **Better Date Formatting**: Dates on the dashboard and emergency page now use an easier-to-read format of month day, year (e.g. "July 12, 2023")
+
 # 1.2.3 (Twinbrook) - 2023-07-10
 
 ## New Features
