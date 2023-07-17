@@ -3,6 +3,24 @@
 - Patch (0.0.X) releases are minor bug fixes and code enhancements. 
 - Minor (0.X.0) and major (X.0.0) releases introduce new features and follow the Washington DC Metro system's station names on the Red Line, starting at Shady Grove.
 
+# 1.2.5 (Twinbrook) - 2023-07-17
+
+## New Features
+
+### Configuration
+
+- **Gunicorn Integration**: The Portal now uses green unicorn ("gunicorn") as the Web Server Gateway Interface (WSGI) in production.
+
+## Changes
+
+- **Better Date Formatting**: Utilized same method from 1.2.4 release on the internal portfolio table.
+- **Additional Datatable Controls**: Added new search field to full portfolio view for logged-in users.
+- **Improved CSS on Stories**: The special markdown classes have been updated to improve the visual styling on story pages.
+
+## Fixes
+
+- **Member Table Filtering**: The member table for logged-in users didn't show members that had no assignments, due to a SQL join error. This has been fixed with new left joins to feed that table.
+
 # 1.2.4 (Twinbrook) - 2023-07-12
 
 ## Changes
