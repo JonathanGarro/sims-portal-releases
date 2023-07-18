@@ -3,6 +3,14 @@
 - Patch (0.0.X) releases are minor bug fixes and code enhancements. 
 - Minor (0.X.0) and major (X.0.0) releases introduce new features and follow the Washington DC Metro system's station names on the Red Line, starting at Shady Grove.
 
+# 1.3.0 (North Bethesda) - 2023-07-18
+
+## New Features
+
+### Stories
+
+- **Header Images Save to S3**: This release moves story header images into S3 in order to maintain the data when deploying updated Docker containers to AWS.
+
 # 1.2.5 (Twinbrook) - 2023-07-17
 
 ## New Features
