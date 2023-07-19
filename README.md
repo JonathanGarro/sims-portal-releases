@@ -3,6 +3,13 @@
 - Patch (0.0.X) releases are minor bug fixes and code enhancements. 
 - Minor (0.X.0) and major (X.0.0) releases introduce new features and follow the Washington DC Metro system's station names on the Red Line, starting at Shady Grove.
 
+# 1.3.1 (North Bethesda) - 2023-07-19
+
+## Fixes
+
+- **Resource Page Link Correction**: Moved the documentation link destination for product approval status on portfolio pages to the learn-sims.org site.
+- **Story Image on Index**: Fixed a 1.3.0-related change around moving story images to S3 broke the image lookup on the index page.
+
 # 1.3.0 (North Bethesda) - 2023-07-18
 
 ## New Features
