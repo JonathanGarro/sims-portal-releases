@@ -3,6 +3,15 @@
 - Patch (0.0.X) releases are minor bug fixes and code enhancements. 
 - Minor (0.X.0) and major (X.0.0) releases introduce new features and follow the Washington DC Metro system's station names on the Red Line, starting at Shady Grove.
 
+# 1.4.0 (Grosvenor-Strathmore) - 2023-07-24
+
+## New Features
+
+### User Profiles
+
+- **Slack Photo Integration**: Members can now optionally use the photo from their SIMS Slack account as their profile photo. The new feature uses the assigned Slack ID on the user's profile to ping the API and pull down the associated photo.
+- **Improved User Profile Management**: The user profile controls—including updating personal information, saving work location, resetting password, downloading Slack photo, and deleting account—have been moved to a sliding Bootstrap pane.
+
 # 1.3.1 (North Bethesda) - 2023-07-19
 
 ## Fixes
