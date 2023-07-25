@@ -3,6 +3,24 @@
 - Patch (0.0.X) releases are minor bug fixes and code enhancements. 
 - Minor (0.X.0) and major (X.0.0) releases introduce new features and follow the Washington DC Metro system's station names on the Red Line, starting at Shady Grove.
 
+# 1.4.1 (Grosvenor-Strathmore) - 2023-07-25
+
+## New Features
+
+### User Profiles
+
+- **Inactive Member Listing**: The members page on the public section of the site now allows viewers to toggle between active and inactive members. The pagination buttons have also received new styling.
+
+## Changes
+
+- **Data Readiness Link**: The site footer has been updated to include a link to the [Data Readiness Toolkit](https://preparecenter.org/toolkit/data-readiness-toolkit/).
+- **Redesigned Support Profile Pages**: The support profile pages have been cleaned up with a simpler navigation structure and new iconography. 
+
+## Fixes
+
+- **Profile Assignment Data Model Upgrade**: The system previously allowed multiple rows per profile, per member in the `users_profiles` lookup table. For example, if a member was assigned web viz tier 3, then later assigned web viz tier 4, the original record would be retained and the front end would filter the `max()` tier. This caused problems when admins tried to delete old records through the admin portal. The new route deletes existing records for the user in that profile type before assigning the new one in order to maintain a 1-1 relationship of users' profiles and tiers.
+- **Fix PSQL Conditionals for 403 Pages**: The conversion from SQLite to PostgreSQL for the backend broke some SQLAlchemy queries because of how booleans are handled (`True` instead of `1`). All instances of the 403 error page redirect now use the correct syntax.
+
 # 1.4.0 (Grosvenor-Strathmore) - 2023-07-24
 
 ## New Features
