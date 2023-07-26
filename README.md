@@ -3,6 +3,15 @@
 - Patch (0.0.X) releases are minor bug fixes and code enhancements. 
 - Minor (0.X.0) and major (X.0.0) releases introduce new features and follow the Washington DC Metro system's station names on the Red Line, starting at Shady Grove.
 
+# 1.4.2 (Grosvenor-Strathmore) - 2023-07-26
+
+## New Features
+
+### API V1
+
+- **User Table Queries**: Query the `user` table to return results about our registered members. Accepts optional argument of users' statuses.
+- **Portfolio Table Queries**: Query the approved products associated with a given emergency. Accepts required argument of the GO emergency's ID. 
+
 # 1.4.1 (Grosvenor-Strathmore) - 2023-07-25
 
 ## New Features
