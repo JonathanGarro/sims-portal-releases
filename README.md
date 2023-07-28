@@ -3,6 +3,18 @@
 - Patch (0.0.X) releases are minor bug fixes and code enhancements. 
 - Minor (0.X.0) and major (X.0.0) releases introduce new features and follow the Washington DC Metro system's station names on the Red Line, starting at Shady Grove.
 
+# 1.4.3 (Grosvenor-Strathmore) - 2023-07-28
+
+## Changes
+
+- **Pagination on Public Portfolio**: To save server resources, pagination has been added to the public portfolio for both filtered and unfiltered views.
+- **API Documentation**: The footer now links to a dedicated API documentation page where users can test out queries to the database.
+
+## Fixes
+
+- **Correct Counting of Operations Supported**: The "operations supported" section of the member profile page was double counting when users supported the same operation in multiple capacities (e.g. both as a remote supporter and as a SIMS Remote Coordinator).
+- **Correct Counting of Members Supporting on Story View**: Stories for emergencies were also double counting members that filled multiple roles.
+
 # 1.4.2 (Grosvenor-Strathmore) - 2023-07-26
 
 ## New Features
