@@ -3,6 +3,18 @@
 - Patch (0.0.X) releases are minor bug fixes and code enhancements. 
 - Minor (0.X.0) and major (X.0.0) releases introduce new features and follow the Washington DC Metro system's station names on the Red Line, starting at Shady Grove.
 
+# 1.4.4 (Grosvenor-Strathmore) - 2023-07-30
+
+## New Features
+
+### API
+
+- **Emergency Table Queries**: The API now accepts queries of the `emergencies` table, and accepts the following optional parameters: `status`, `emergency_id`, `iso3`. It adds a calculated column that shows the total number of assignments. See API documentation for more information.
+
+## Fixes
+
+- **Validation on Edited Email Address**: There was no form validation message shown to the user when trying to update their account with an already-registered email address. The system will now give clear feedback when a conflict occurs.
+
 # 1.4.3 (Grosvenor-Strathmore) - 2023-07-28
 
 ## Changes
@@ -19,7 +31,7 @@
 
 ## New Features
 
-### API V1
+### API
 
 - **User Table Queries**: Query the `user` table to return results about our registered members. Accepts optional argument of users' statuses.
 - **Portfolio Table Queries**: Query the approved products associated with a given emergency. Accepts required argument of the GO emergency's ID. 
