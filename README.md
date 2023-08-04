@@ -3,6 +3,25 @@
 - Patch (0.0.X) releases are minor bug fixes and code enhancements. 
 - Minor (0.X.0) and major (X.0.0) releases introduce new features and follow the Washington DC Metro system's station names on the Red Line, starting at Shady Grove.
 
+# 1.4.6 (Grosvenor-Strathmore) - 2023-08-04
+
+## Changes
+
+- **d3 Learning Visualization**: The learning visualization which previously used chart.js has been replaced with a d3 visualization. This graph still needs additional work to improve its utility, including mouseover events. These will changes will be added to a future release.
+- **Additional Cron Runs**: The frequency of the cron job that looks for new IM-related surge alerts has been increased following a successful beta period. 
+
+## Fixes
+
+- **Cleaner JS Imports**: The `layout.html` that handles the bulk of templates' JS imports has been cleaned up address a number of errors that were previously appearing the console. These mostly related to either outdated versions or trying to load functions that were not present on certain pages. These have been addressed with `{% if request.path == <path-here> %}` to only load when needed.
+
+# 1.4.5 (Grosvenor-Strathmore) - 2023-07-31
+
+## New Features
+
+### Learning and Reference Resources
+
+- **Post Operational Slack Alerts**: When an administrator closes out an emergency in the system, it sends a Slack message to each user listed as a Remote IM Supporter with a link to their learning survey. 
+
 # 1.4.4 (Grosvenor-Strathmore) - 2023-07-30
 
 ## New Features
