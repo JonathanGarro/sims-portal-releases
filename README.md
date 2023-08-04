@@ -3,7 +3,7 @@
 - Patch (0.0.X) releases are minor bug fixes and code enhancements. 
 - Minor (0.X.0) and major (X.0.0) releases introduce new features and follow the Washington DC Metro system's station names on the Red Line, starting at Shady Grove.
 
-# 1.4.6 (Grosvenor-Strathmore) - 2023-08-04 
+# 1.4.6 (Grosvenor-Strathmore) - 2023-08-04
 
 ## Changes
 
@@ -12,7 +12,7 @@
 
 ## Fixes
 
-- **Cleaner JS Imports**: The `layout.html` that handles the bulk of templates' JS imports has been cleaned up address a number of errors that were previously appearing the console. These mostly related to either outdated versions or trying to load functions that were not present on certain pages. These have been addressed with `{% if request.path == <path-here> %}` to only load when needed.
+- **Cleaner JS Imports**: The `layout.html` that handles the bulk of templates' JS imports has been cleaned up address a number of errors that were previously appearing the console. These mostly related to either outdated versions or trying to load functions that were not present on certain pages. These have been addressed with `if request.path ==` to only load when needed.
 
 # 1.4.5 (Grosvenor-Strathmore) - 2023-07-31
 
