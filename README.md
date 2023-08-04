@@ -3,7 +3,7 @@
 - Patch (0.0.X) releases are minor bug fixes and code enhancements. 
 - Minor (0.X.0) and major (X.0.0) releases introduce new features and follow the Washington DC Metro system's station names on the Red Line, starting at Shady Grove.
 
-# 1.4.6 (Grosvenor-Strathmore) - 2023-08-04
+# 1.4.6 (Grosvenor-Strathmore) - 2023-08-04 
 
 ## Changes
 
