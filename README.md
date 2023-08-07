@@ -3,6 +3,30 @@
 - Patch (0.0.X) releases are minor bug fixes and code enhancements. 
 - Minor (0.X.0) and major (X.0.0) releases introduce new features and follow the Washington DC Metro system's station names on the Red Line, starting at Shady Grove.
 
+# 1.4.8 (Grosvenor-Strathmore) - 2023-08-07
+
+## New Features
+
+### Role Profile Pages
+
+- **Linkage with Learn-SIMS Site**: Role profile pages now include a link to the learning hub for that specific role profile.
+
+## Changes
+
+- **Active/Inactive Member Toggle**: The toggle to switch between active and inactive members has gotten a cleaner styling.
+- **Tweaks to Landing Page**: Minor adjustments to the index page's layout and language.
+
+## Fixes
+
+- **Sort Order of SIMS Co Table**: The remote coordinators assigned to an emergency now appear in chronological order.
+- **Sort Order of Emergency Types on New Emergency Page**: The dropdown now lists emergencies in alphabetical order.
+
+# 1.4.7 (Grosvenor-Strathmore) - 2023-08-05
+
+## Fixes 
+
+- **Fix Learning Data Error**: The learning visualization added as part of 1.4.6 created a fatal error when viewing closed emergencies that had no learning data associated. 
+
 # 1.4.6 (Grosvenor-Strathmore) - 2023-08-04
 
 ## Changes
