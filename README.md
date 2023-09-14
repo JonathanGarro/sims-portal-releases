@@ -3,6 +3,12 @@
 - Patch (0.0.X) releases are minor bug fixes and code enhancements. 
 - Minor (0.X.0) and major (X.0.0) releases introduce new features and follow the Washington DC Metro system's station names on the Red Line, starting at Shady Grove.
 
+# 1.4.9 (Grosvenor-Strathmore) - 2023-09-14
+
+## Fixes
+
+- **Surge Alerter Fix**: The Geneva Surge team has been importing old surge alerts into the RRMS database as part of a historical data migration, and these don't follow the same structure that the import utility in the Portal was designed against. I have adjusted the script with try/except blocks to avoid errors.
+
 # 1.4.8 (Grosvenor-Strathmore) - 2023-08-07
 
 ## New Features
