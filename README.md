@@ -3,6 +3,19 @@
 - Patch (0.0.X) releases are minor bug fixes and code enhancements. 
 - Minor (0.X.0) and major (X.0.0) releases introduce new features and follow the Washington DC Metro system's station names on the Red Line, starting at Shady Grove.
 
+# 1.5.0 (Medical Center) - 2023-09-22
+
+## New Features
+
+### User Profiles
+
+- **Private Profiles**: Based on feedback about data privacy, users can now mark their profile as private. This prevents their profile from appearing on the public-facing side of the site on the Members page, and adds their profile to a `robots.txt` file to prevent search engine indexing.
+- **Bulk Slack Photo Import**: Admins now have access to a method for automatically updating all users' profiles that have not had a custom image associated with their Slack profile photo.
+
+### Emergencies
+
+- **Availability Details**: A table now shows how people have reported their availability. 
+
 # 1.4.9 (Grosvenor-Strathmore) - 2023-09-14
 
 ## Fixes
