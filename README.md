@@ -3,6 +3,27 @@
 - Patch (0.0.X) releases are minor bug fixes and code enhancements. 
 - Minor (0.X.0) and major (X.0.0) releases introduce new features and follow the Washington DC Metro system's station names on the Red Line, starting at Shady Grove.
 
+# 1.5.1 (Medical Center) - 2023-09-24
+
+## New Features
+
+### Navigation
+
+- **New Navbar**: To simplify the navigation panel, the top bar links have been swapped out for icons. This is part of a larger effort to make room for some additional features on the development roadmap.
+
+### User Profiles
+
+- **Member Status**: Profiles now display the user's status in the SIMS network—`Active`, `Inactive`, `Pending`, and `Other`.
+
+## Changes
+
+- **Dashboard Map Styling**: Darker borders to increase visibility on certain screens.
+
+## Fixes
+
+- **Portal Admin Page**: The Portal Admin listing page was broken due to a SQL error as part of the SQLite to PostgreSQL transition.
+- **Emergency Page Tabs**: Certain tabs on the emergency page were displaying information incorrectly due to an extra closing `</div>` tag.
+
 # 1.5.0 (Medical Center) - 2023-09-22
 
 ## New Features
