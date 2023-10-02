@@ -3,6 +3,18 @@
 - Patch (0.0.X) releases are minor bug fixes and code enhancements. 
 - Minor (0.X.0) and major (X.0.0) releases introduce new features and follow the Washington DC Metro system's station names on the Red Line, starting at Shady Grove.
 
+# 1.5.2 (Medical Center) - 2023-10-02
+
+## Changes
+
+- **Caching Static Images**: Most images are hosted on AWS S3, but for static files like icons and logos, a new route has been built to handle caching those images in order to improve site performance.
+- **Profile Page Styling Tweaks**: The member status indicator has been refined.
+- **SIMS Co Editing of Assignments**: The assignment page now utilizes the `check_sims_co` utility to validate that the user viewing the assignment is a SIMS Remote Coordinator for that particular emergency. If `True`, the user has access to assignment editing. 
+
+## Fixes
+
+- **Hide Closeout Button**: Removed "Closeout Emergency" button on emergency records that are no longer active in order to avoid re-pinging members with request to submit learning records.
+
 # 1.5.1 (Medical Center) - 2023-09-24
 
 ## New Features
