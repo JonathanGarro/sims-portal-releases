@@ -3,6 +3,12 @@
 - Patch (0.0.X) releases are minor bug fixes and code enhancements. 
 - Minor (0.X.0) and major (X.0.0) releases introduce new features and follow the Washington DC Metro system's station names on the Red Line, starting at Shady Grove.
 
+# 1.5.3 (Medical Center) - 2023-10-06
+
+## Fixes
+
+- **Broken Emergency Page Portfolio**: A jinja loop wasn't properly closed, leading to errors on the emergency page's "View More" link for the full list of approved products.
+
 # 1.5.2 (Medical Center) - 2023-10-02
 
 ## Changes
