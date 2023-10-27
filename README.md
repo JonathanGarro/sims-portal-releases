@@ -3,6 +3,21 @@
 - Patch (0.0.X) releases are minor bug fixes and code enhancements. 
 - Minor (0.X.0) and major (X.0.0) releases introduce new features and follow the Washington DC Metro system's station names on the Red Line, starting at Shady Grove.
 
+# 1.7.0 (Friendship Heights) - 2023-10-27
+
+## New Features
+
+- **National Society View**: Data can now be viewed by national society through dedicated pages for each society that has SIMS members. Access these pages through the navbar dropdown when logged in. These views show associated members and their domain specializations in order to centralize information for register managers.
+
+## Changes
+
+- **Documentation Styling**: Updated the styling to make the documentation table easier to read.
+- **Portfolio Preview Styling**: Added border to products to improve visibility of products with a white background.
+
+## Fixes
+
+- **Missing Documentation Type on Form**: The "Web Visualization" option was previously missing from the new documentation form.
+
 # 1.6.0 (Bethesda) - 2023-10-10
 
 ## Changes
