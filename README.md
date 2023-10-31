@@ -3,6 +3,14 @@
 - Patch (0.0.X) releases are minor bug fixes and code enhancements. 
 - Minor (0.X.0) and major (X.0.0) releases introduce new features and follow the Washington DC Metro system's station names on the Red Line, starting at Shady Grove.
 
+# 1.7.1 (Friendship Heights) - 2023-10-31
+
+## Changes
+
+- **Member Directory Navigation**: The navigation for the active and inactive member directory has been updated.
+- **Separate Support Profiles Card**: The "Support Profiles" information on member profiles has been moved to a separate card which only appears if the user has any assigned to them.
+- **Dashboard Layout**: Minor enhancements to the map.
+
 # 1.7.0 (Friendship Heights) - 2023-10-27
 
 ## New Features
